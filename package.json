@@ -1,0 +1,39 @@
+{
+  "name": "pizzeriadonremolo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/config/server.js",
+    "start": "node ./src/config/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "connect-multiparty": "2.2.0",
+    "cors": "2.8.5",
+    "dotenv": "16.0.1",
+    "express": "4.18.1",
+    "express-validator": "6.14.2",
+    "jsonwebtoken": "8.5.1",
+    "moment": "2.29.4",
+    "mongoose": "6.5.2",
+    "nodemailer": "6.7.8",
+    "swagger-ui-express": "4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.2.4",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-react": "7.30.1",
+    "prettier": "2.7.1"
+  }
+}
